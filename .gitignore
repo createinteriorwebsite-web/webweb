@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Original full-size photo dumps and photos not used on the site (kept locally only)
+assets/img/orig/
+assets/img/_unused/
+
+# Raw source videos for the hero (the web-ready versions live in assets/video/)
+/hf_*
+
+# Local tooling
+node_modules/
+.claude/*
+!.claude/launch.json
+!.claude/serve.py
